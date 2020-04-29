@@ -77,7 +77,7 @@
         93.75
     ],
     "customurlscheme": "moodlemobile",
-    "siteurl": "",
+    "siteurl": "192.168.0.237:8081",
     "sitename": "",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
@@ -88,7 +88,7 @@
     "statusbarlighttext": false,
     "statusbarbgios": "#f98012",
     "statusbarlighttextios": true,
-    "statusbarbgandroid": "#df7310",
+    "statusbarbgandroid": "#2364bb",
     "statusbarlighttextandroid": true,
     "statusbarbgremotetheme": "#000000",
     "statusbarlighttextremotetheme": true,
