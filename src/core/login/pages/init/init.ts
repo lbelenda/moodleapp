@@ -47,8 +47,8 @@ export class CoreLoginInitPage {
                 // Unset redirect data.
                 this.appProvider.storeRedirect('', '', '');
 
-                // Only accept the redirect if it was stored less than 20 seconds ago.
-                if (Date.now() - redirectData.timemodified < 20000) {
+                // Only accept the redirect if it was stored less than 10 seconds ago.
+                if (Date.now() - redirectData.timemodified < 5000) {
                     if (redirectData.siteId != CoreConstants.NO_SITE_ID) {
                         // The redirect is pointing to a site, load it.
                         return this.sitesProvider.loadSite(redirectData.siteId, redirectData.page, redirectData.params)
@@ -74,7 +74,7 @@ export class CoreLoginInitPage {
             // If we hide the splash screen now, the init view is still seen for an instant. Wait a bit to make sure it isn't seen.
             setTimeout(() => {
                 this.splashScreen.hide();
-            }, 100);
+            }, 5);
         });
     }
 

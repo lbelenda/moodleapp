@@ -8,7 +8,7 @@
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,
     "cache_update_frequency_rarely": 43200000,
-    "default_lang": "en",
+    "default_lang": "es",
     "languages": {
         "ar": "عربي",
         "bg": "Български",
@@ -60,16 +60,6 @@
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
     "demo_sites": {
-        "student": {
-            "url": "https:\/\/school.moodledemo.net",
-            "username": "student",
-            "password": "moodle"
-        },
-        "teacher": {
-            "url": "https:\/\/school.moodledemo.net",
-            "username": "teacher",
-            "password": "moodle"
-        }
     },
     "font_sizes": [
         62.5,
@@ -78,7 +68,7 @@
     ],
     "customurlscheme": "moodlemobile",
     "siteurl": "192.168.0.237:8081",
-    "sitename": "",
+    "sitename": "Catedras Virtuales - Facultad de Ciencias Jurídicas y Sociales UNLP",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
